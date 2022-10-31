@@ -18,7 +18,7 @@ const Users = () => {
     const usersData = await data.json()
     
     setUsersData(usersData.results)
-    
+    console.log(usersData.results)
   }
 
 
@@ -27,7 +27,7 @@ const Users = () => {
     {
       usersData.map(usersDatainfo => (
         <h2 key={usersDatainfo.cell}>
-        <Link to={`/users/${usersDatainfo.cell}`}>{usersDatainfo.phone}</Link></h2>
+        <Link to={`/users/${usersDatainfo.cell}`}><img src= {usersDatainfo.picture.medium} /></Link></h2>
       
       ))
     }
