@@ -26,7 +26,7 @@ const Users = () => {
     <>
     {
       usersData.map(usersDatainfo => (
-        <h2 key={usersDatainfo.cell}>
+        <h2 className="load-img" key={usersDatainfo.cell}>
         <Link to={`/users/${usersDatainfo.cell}`}><img src= {usersDatainfo.picture.medium} /></Link></h2>
       
       ))

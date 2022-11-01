@@ -17,7 +17,7 @@ const User = ({ match }) => {
   } 
   return (
     <div>
-       <h5>User is high</h5>
+       <h1>USER PROFILE LOADING........</h1>
 
   </div>
   )

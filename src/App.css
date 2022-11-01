@@ -22,3 +22,21 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+.pagenotfound {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.h2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.load-img {
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}

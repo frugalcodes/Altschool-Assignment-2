@@ -5,6 +5,7 @@ import Users from './components/Users';
 import About from './components/About';
 import Nav from './components/Nav';
 import Home from './components/Home';
+import PageNotFound from './components/PageNotFound';
 
 import './App.css';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -31,7 +32,7 @@ const App = () => {
 
     <Route path="/users/:cell" element={<User/>}/>
     
-
+    <Route path="*" element={<PageNotFound/>}/>
 
     </Routes>
     
