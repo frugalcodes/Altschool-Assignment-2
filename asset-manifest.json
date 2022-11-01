@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Altschool-Assignment-2/static/css/main.d31fd6d3.css",
-    "main.js": "/Altschool-Assignment-2/static/js/main.f22a866e.js",
+    "main.css": "/Altschool-Assignment-2/static/css/main.1271057e.css",
+    "main.js": "/Altschool-Assignment-2/static/js/main.19c91a44.js",
     "index.html": "/Altschool-Assignment-2/index.html",
-    "main.d31fd6d3.css.map": "/Altschool-Assignment-2/static/css/main.d31fd6d3.css.map",
-    "main.f22a866e.js.map": "/Altschool-Assignment-2/static/js/main.f22a866e.js.map"
+    "main.1271057e.css.map": "/Altschool-Assignment-2/static/css/main.1271057e.css.map",
+    "main.19c91a44.js.map": "/Altschool-Assignment-2/static/js/main.19c91a44.js.map"
   },
   "entrypoints": [
-    "static/css/main.d31fd6d3.css",
-    "static/js/main.f22a866e.js"
+    "static/css/main.1271057e.css",
+    "static/js/main.19c91a44.js"
   ]
 }
