@@ -6,6 +6,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import PageNotFound from './components/PageNotFound';
+import ReactPaginate from 'react-paginate';
 
 import './App.css';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -14,6 +15,8 @@ import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
 
+
+  
  
 
   return (
@@ -22,6 +25,7 @@ const App = () => {
 
     <Nav />
     <Routes>
+    <Route path="/users" exact element={<Users/>}/>
     <Route path='/' exact element={<Home />} />
     <Route path="/about"  element={<About/>}/>
     
@@ -32,7 +36,7 @@ const App = () => {
 
     <Route path="/users/:cell" element={<User/>}/>
     
-    <Route path="*" element={<PageNotFound/>}/>
+    <Route path="*" exact element={<PageNotFound/>}/>
 
     </Routes>
     

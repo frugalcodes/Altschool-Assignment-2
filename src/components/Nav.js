@@ -9,7 +9,10 @@ const Nav = () => {
     <nav>
         <h3>Logo</h3>
        <ul className='nav-links'>
-
+        
+       <Link to='users'>
+                <li>Users</li>
+        </Link>
         <Link to='/'>
                  <li>Home</li>
         </Link>
@@ -18,9 +21,7 @@ const Nav = () => {
                 <li>About</li>
         </Link>
 
-        <Link to='users'>
-                <li>Users</li>
-        </Link>
+        
 
         <Link to='/contact'>
                 <li>Contact</li>

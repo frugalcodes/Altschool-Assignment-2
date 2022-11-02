@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div><h1>This is the HomePage</h1></div>
+    <div><h1>click on Users icon above to display Users</h1></div>
   )
 }
 
