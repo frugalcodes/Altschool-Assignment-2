@@ -6,7 +6,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import PageNotFound from './components/PageNotFound';
-import ReactPaginate from 'react-paginate';
+
 
 import './App.css';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
