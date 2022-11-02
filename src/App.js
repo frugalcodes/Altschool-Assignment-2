@@ -25,6 +25,7 @@ const App = () => {
 
     <Nav />
     <Routes>
+    
     <Route path="/users" exact element={<Users/>}/>
     <Route path='/' exact element={<Home />} />
     <Route path="/about"  element={<About/>}/>
@@ -36,8 +37,8 @@ const App = () => {
 
     <Route path="/users/:cell" element={<User/>}/>
     
-    <Route path="*" exact element={<PageNotFound/>}/>
-
+    <Route path='*' exact element={<PageNotFound/>}/>
+    
     </Routes>
     
     </div>

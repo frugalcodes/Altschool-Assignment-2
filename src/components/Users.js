@@ -15,7 +15,7 @@ const Users = () => {
   const [pageNumber, setPageNumber] = useState(0);
 
 
-  const usersPerPage = 68;
+  const usersPerPage = 40;
   const pagesVisited = pageNumber * usersPerPage;
 
   const DisplayUsers = usersData.slice(pagesVisited, pagesVisited + usersPerPage).map((usersDatainfo) => {
@@ -29,7 +29,7 @@ const Users = () => {
 
   const FetchUsers = async () => {
     
-    const data = await fetch('https://randomuser.me/api/?results=2000')
+    const data = await fetch('https://randomuser.me/api/?results=1000')
     const usersData = await data.json()
     
     setUsersData(usersData.results)
